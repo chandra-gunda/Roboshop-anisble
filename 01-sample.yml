@@ -1,0 +1,7 @@
+-name: sample playbook
+hosts: all
+tasks:
+    -name: Install NGINX
+     yum:
+        name: nginx
+        state: present
